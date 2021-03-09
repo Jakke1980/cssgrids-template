@@ -9,6 +9,7 @@ body {
 	width: 89%;
 	margin: auto auto;
 	margin-top: 15px;
+	
 }
 
 .header {
@@ -54,6 +55,151 @@ body {
 .footer4 {
 	border: 1px solid #333;
 	margin: 10px;
+}
+ /* Screens <1200px */
+@media screen and (max-width: 1200px) {
+
+	.header {
+		grid-area: 1 / 1 / 2 / 13;
+		border: 1px solid #333;
+	}
+	
+	.box1 {
+		grid-area: 2 / 1 / 3 / 4;
+		border: 1px solid #333;
+	}
+	
+	.box2 {
+		grid-area: 2 / 4 / 3 / 10;
+		border: 1px solid #333;
+	}
+	
+	.box3 {
+		grid-area: 2 / 10 / 3 / 13;
+		border: 1px solid #333;
+	}
+	
+	.main {
+		grid-area: 3 / 1 / 4 / 9;
+		border: 1px solid #333;
+	}
+	
+	.aside {
+		grid-area: 3 / 9 / 4 / 13;
+		border: 1px solid #333;
+	}
+	
+	.footer {
+		grid-area: 4 / 1 / 5 / 13;;
+		border: 1px solid #333;
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+	}
+	
+	.footer1,
+	.footer2,
+	.footer3,
+	.footer4 {
+		border: 1px solid #333;
+		margin: 10px;
+	}
+}
+
+/* Screens <960px */
+@media screen and (max-width: 1200px) {
+
+	.header {
+		grid-area: 1 / 1 / 2 / 13;
+		border: 1px solid #333;
+	}
+	
+	.box1 {
+		grid-area: 2 / 1 / 3 / 4;
+		border: 1px solid #333;
+	}
+	
+	.box2 {
+		grid-area: 2 / 4 / 3 / 10;
+		border: 1px solid #333;
+	}
+	
+	.box3 {
+		grid-area: 2 / 10 / 3 / 13;
+		border: 1px solid #333;
+	}
+	
+	.main {
+		grid-area: 3 / 1 / 4 / 9;
+		border: 1px solid #333;
+	}
+	
+	.aside {
+		grid-area: 3 / 9 / 4 / 13;
+		border: 1px solid #333;
+	}
+	
+	.footer {
+		grid-area: 4 / 1 / 5 / 13;;
+		border: 1px solid #333;
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+	}
+	
+	.footer1,
+	.footer2,
+	.footer3,
+	.footer4 {
+		border: 1px solid #333;
+		margin: 10px;
+	}
+}
+ /* Screens <768px */
+@media screen and (max-width: 1200px) {
+
+	.header {
+		grid-area: 1 / 1 / 2 / 13;
+		border: 1px solid #333;
+	}
+	
+	.box1 {
+		grid-area: 2 / 1 / 3 / 4;
+		border: 1px solid #333;
+	}
+	
+	.box2 {
+		grid-area: 2 / 4 / 3 / 10;
+		border: 1px solid #333;
+	}
+	
+	.box3 {
+		grid-area: 2 / 10 / 3 / 13;
+		border: 1px solid #333;
+	}
+	
+	.main {
+		grid-area: 3 / 1 / 4 / 9;
+		border: 1px solid #333;
+	}
+	
+	.aside {
+		grid-area: 3 / 9 / 4 / 13;
+		border: 1px solid #333;
+	}
+	
+	.footer {
+		grid-area: 4 / 1 / 5 / 13;;
+		border: 1px solid #333;
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+	}
+	
+	.footer1,
+	.footer2,
+	.footer3,
+	.footer4 {
+		border: 1px solid #333;
+		margin: 10px;
+	}
 }
 
 
