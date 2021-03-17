@@ -3,7 +3,7 @@ body {
 	background-size: 90%;
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: repeat(4, 200px);
+	grid-template-rows: 100px 200px auto 200px;
 	gap: 15px;
 	/* place-content: start center; */
 	width: 89%;
@@ -176,11 +176,15 @@ body {
 	.header,
 	.box1, 
 	.box2, 
-	.box3, 
-	.main,
-	.aside {
+	.box3 {
 		height: 150px;	
 		border: 1px solid #333;
+		margin-bottom: 15px;
+	}
+
+	.main,
+	.aside {
+		height: auto;
 		margin-bottom: 15px;
 	}
 	
@@ -200,6 +204,39 @@ body {
 	}
 }
 
+.header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+[class*="button"] {
+	margin: 10px;	
+}
+
+.button4 {
+	margin-left: auto;
+}
+
+
+.main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: space-around;
+}
+
+[class*="section"] {
+	height: 80px;
+	flex: 1 230px;
+	margin: 10px;
+	border: 1px solid #333;
+}
+
+.aside {
+	display: flex;
+	flex-direction: column;
+}
 
 
 
