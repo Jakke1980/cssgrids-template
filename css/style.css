@@ -3,7 +3,7 @@ body {
 	background-size: 90%;
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: 100px 200px auto 200px;
+	grid-template-rows: repeat(4, 200px);
 	gap: 15px;
 	/* place-content: start center; */
 	width: 89%;
@@ -204,14 +204,20 @@ body {
 	}
 }
 
+body {
+	grid-template-rows: 100px 200px auto 200px;
+}
+
 .header {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
+	background-color: beige;
 }
 
 [class*="button"] {
-	margin: 10px;	
+	margin: 10px;
+	border-radius: 5px;	
 }
 
 .button4 {
@@ -224,6 +230,7 @@ body {
 	flex-wrap: wrap;
 	justify-content: space-around;
 	align-content: space-around;
+	background-color: beige;
 }
 
 [class*="section"] {
@@ -236,6 +243,7 @@ body {
 .aside {
 	display: flex;
 	flex-direction: column;
+	background-color: beige;
 }
 
 
